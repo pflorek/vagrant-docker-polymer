@@ -1,0 +1,20 @@
+{
+  "name": "polymer",
+  "version": "1.0.0",
+  "description": "Polymer",
+  "author": "Patrick Florek <patrick.florek@gmail.com>",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon -L server.js"
+  },
+  "dependencies": {
+    "koa": "^1.2.1",
+    "koa-static": "^2.0.0"
+  },
+  "keywords": [
+    "node",
+    "docker",
+    "koa"
+  ]
+}
